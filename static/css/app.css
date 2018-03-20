@@ -895,55 +895,55 @@ textarea {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 100;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Thin.eot?8ae5a0b) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Thin.woff?6903f71) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Thin.ttf?af6a1be) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Thin.eot?8ae5a0b) format("eot"), url(static/fonts/SFUIDisplay-Thin.woff?6903f71) format("woff"), url(static/fonts/SFUIDisplay-Thin.ttf?af6a1be) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 200;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Ultralight.eot?6899592) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Ultralight.woff?d6d9e8a) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Ultralight.ttf?b635e02) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Ultralight.eot?6899592) format("eot"), url(static/fonts/SFUIDisplay-Ultralight.woff?d6d9e8a) format("woff"), url(static/fonts/SFUIDisplay-Ultralight.ttf?b635e02) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 300;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Light.eot?aa2949d) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Light.woff?b526baa) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Light.ttf?ef1421c) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Light.eot?aa2949d) format("eot"), url(static/fonts/SFUIDisplay-Light.woff?b526baa) format("woff"), url(static/fonts/SFUIDisplay-Light.ttf?ef1421c) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 400;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Regular.eot?c74b737) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Regular.woff?e11244c) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Regular.ttf?3430fdf) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Regular.eot?c74b737) format("eot"), url(static/fonts/SFUIDisplay-Regular.woff?e11244c) format("woff"), url(static/fonts/SFUIDisplay-Regular.ttf?3430fdf) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 500;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Medium.eot?048500d) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Medium.woff?95a8041) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Medium.ttf?36d5ab4) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Medium.eot?048500d) format("eot"), url(static/fonts/SFUIDisplay-Medium.woff?95a8041) format("woff"), url(static/fonts/SFUIDisplay-Medium.ttf?36d5ab4) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 600;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Semibold.eot?c308abb) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Semibold.woff?efcff9e) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Semibold.ttf?0b5f104) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Semibold.eot?c308abb) format("eot"), url(static/fonts/SFUIDisplay-Semibold.woff?efcff9e) format("woff"), url(static/fonts/SFUIDisplay-Semibold.ttf?0b5f104) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 700;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Bold.eot?cd1f74a) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Bold.woff?24b0a69) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Bold.ttf?9313922) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Bold.eot?cd1f74a) format("eot"), url(static/fonts/SFUIDisplay-Bold.woff?24b0a69) format("woff"), url(static/fonts/SFUIDisplay-Bold.ttf?9313922) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 800;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Heavy.eot?59618b5) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Heavy.woff?775e1f8) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Heavy.ttf?6c9d2cc) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Heavy.eot?59618b5) format("eot"), url(static/fonts/SFUIDisplay-Heavy.woff?775e1f8) format("woff"), url(static/fonts/SFUIDisplay-Heavy.ttf?6c9d2cc) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 900;
-  src: url(/legkozaim/static/fonts/SFUIDisplay-Black.eot?62900dc) format("eot"), url(/legkozaim/static/fonts/SFUIDisplay-Black.woff?e2b1824) format("woff"), url(/legkozaim/static/fonts/SFUIDisplay-Black.ttf?46460e6) format("truetype");
+  src: url(static/fonts/SFUIDisplay-Black.eot?62900dc) format("eot"), url(static/fonts/SFUIDisplay-Black.woff?e2b1824) format("woff"), url(static/fonts/SFUIDisplay-Black.ttf?46460e6) format("truetype");
 }
 .u-inline-block {
   display: inline-block !important;
@@ -4533,4 +4533,4 @@ a.auth__note:hover {
     opacity: 0;
 }
 
-/*# sourceMappingURL=app.css.map?0dcc2f9398a8b80ae6f9b88af526177a*/
+/*# sourceMappingURL=app.css.map?bec65baa16696587e1ed362d950dfcf0*/

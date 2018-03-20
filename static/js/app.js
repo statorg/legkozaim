@@ -194,56 +194,6 @@ var result = __WEBPACK_IMPORTED_MODULE_1_svg_sprite_loader_runtime_browser_sprit
 
 /***/ }),
 
-/***/ "93mw":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/pages/HomeView.vue
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var HomeView = ({});
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7670456e","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/HomeView.vue
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container"},[_c('intro',[_c('calculator')],1)],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ var pages_HomeView = (esExports);
-// CONCATENATED MODULE: ./src/components/pages/HomeView.vue
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  HomeView,
-  pages_HomeView,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ var components_pages_HomeView = __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
-
 /***/ "9CEG":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -299,44 +249,6 @@ var symbol = new __WEBPACK_IMPORTED_MODULE_0_svg_baker_runtime_browser_symbol___
 });
 var result = __WEBPACK_IMPORTED_MODULE_1_svg_sprite_loader_runtime_browser_sprite_build___default.a.add(symbol);
 /* harmony default export */ __webpack_exports__["default"] = (symbol);
-
-/***/ }),
-
-/***/ "Dmf0":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-28984e96","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/ShoppingView.vue
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container"},[_c('shopping')],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ var ShoppingView = (esExports);
-// CONCATENATED MODULE: ./src/components/pages/ShoppingView.vue
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
-var __vue_script__ = null
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  ShoppingView,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ var pages_ShoppingView = __webpack_exports__["a"] = (Component.exports);
-
 
 /***/ }),
 
@@ -677,9 +589,560 @@ var debug = "production" !== 'production';
   strict: debug,
   plugins: []
 }));
-// EXTERNAL MODULE: ./src/router/index.js
-var router = __webpack_require__("YaEn");
+// EXTERNAL MODULE: ./node_modules/vue-router/dist/vue-router.esm.js
+var vue_router_esm = __webpack_require__("/ocq");
 
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/pages/HomeView.vue
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var HomeView = ({});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7670456e","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/HomeView.vue
+var HomeView_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container"},[_c('intro',[_c('calculator')],1)],1)}
+var staticRenderFns = []
+var esExports = { render: HomeView_render, staticRenderFns: staticRenderFns }
+/* harmony default export */ var pages_HomeView = (esExports);
+// CONCATENATED MODULE: ./src/components/pages/HomeView.vue
+var normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  HomeView,
+  pages_HomeView,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ var components_pages_HomeView = (Component.exports);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/pages/InfoView.vue
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var InfoView = ({
+  methods: {
+    log: function log(_ref) {
+      var _ref$target = _ref.target,
+          tagName = _ref$target.tagName,
+          className = _ref$target.className;
+
+      console.log(tagName, className);
+    }
+  }
+});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7199a374","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/InfoView.vue
+var InfoView_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"container"},[_c('intro',[_c('template',{slot:"text"},[_c('p',[_vm._v("Наша компания работает для активных и ответственных людей, ценящих свое время, желающих зарабатывать и умеющих тратить,\n          идущих к своей цели, но стремящихся жить здесь и сейчас.")]),_vm._v(" "),_c('p',[_vm._v("Мы оперативно решаем вопрос предоставления займа, не требуем залогов и лишних документов, предлагаем прозрачные индивидуальные\n          условия сотрудничества. Наши средства максимально доступны для предпринимателей с четким планом действий, а также\n          для тех, кто умеет «держать слово».")])])],2),_vm._v(" "),_c('steps')],1),_vm._v(" "),_c('sector',[_c('subtitle',[_vm._v("Как получить займ?")]),_vm._v(" "),_c('help-block',{attrs:{"desc":"Наша компания выдает займы наличными в г. Саратов","legend":"Инструкция по получению займа","img":"loan-instruction.png"}},[_c('li',[_vm._v("Убедитесь, что Вам больше 18 лет и Вы находитесь в г. Саратов")]),_vm._v(" "),_c('li',[_vm._v("Заполните "),_c('router-link',{attrs:{"to":"/application-form"}},[_vm._v("анкету")]),_vm._v(" на нашем сайте")],1),_vm._v(" "),_c('li',[_vm._v("Дождитесь СМС с одобрением займа")]),_vm._v(" "),_c('li',[_vm._v("Возьмите с собой паспорт и получите деньги наличными у нас в офисе: г. Саратов, ул. Политехническая, о. 103")])]),_vm._v(" "),_c('subtitle',[_vm._v("Как погасить займ?")]),_vm._v(" "),_c('help-block',{attrs:{"desc":"Узнать свою задолженность Вы можете в <a href='/application-form'>личном кабинете</a> нашего сайта. Для этого нужно ввести Ваш телефон и код, который мы пришлем Вам по СМС.","legend":"Погасить займ можно несколькими способами:","img":"account-instruction.png"}},[_c('li',[_vm._v("С помощью банковской карты")]),_vm._v(" "),_c('li',[_vm._v("Наличными в офисе")])])],1),_vm._v(" "),_c('sector',[_c('subtitle',[_vm._v("Ответы на часто задаваемые вопросы")]),_vm._v(" "),_c('faq')],1),_vm._v(" "),_c('sector',{attrs:{"mods":"dark"}},[_c('subtitle',[_vm._v("Документы МФО")]),_vm._v(" "),_c('docs')],1),_vm._v(" "),_c('sector',{attrs:{"mods":"dark"}},[_c('subtitle',[_vm._v("Реквизиты МФО")]),_vm._v(" "),_c('requisites')],1)],1)}
+var InfoView_staticRenderFns = []
+var InfoView_esExports = { render: InfoView_render, staticRenderFns: InfoView_staticRenderFns }
+/* harmony default export */ var pages_InfoView = (InfoView_esExports);
+// CONCATENATED MODULE: ./src/components/pages/InfoView.vue
+var InfoView_normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var InfoView___vue_template_functional__ = false
+/* styles */
+var InfoView___vue_styles__ = null
+/* scopeId */
+var InfoView___vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var InfoView___vue_module_identifier__ = null
+var InfoView_Component = InfoView_normalizeComponent(
+  InfoView,
+  pages_InfoView,
+  InfoView___vue_template_functional__,
+  InfoView___vue_styles__,
+  InfoView___vue_scopeId__,
+  InfoView___vue_module_identifier__
+)
+
+/* harmony default export */ var components_pages_InfoView = (InfoView_Component.exports);
+
+// EXTERNAL MODULE: ./node_modules/babel-runtime/regenerator/index.js
+var regenerator = __webpack_require__("Xxa5");
+var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator);
+
+// EXTERNAL MODULE: ./node_modules/babel-runtime/helpers/asyncToGenerator.js
+var asyncToGenerator = __webpack_require__("exGp");
+var asyncToGenerator_default = /*#__PURE__*/__webpack_require__.n(asyncToGenerator);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/pages/ApplicationFormView.vue
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var ApplicationFormView = ({
+  $_veeValidate: {
+    validator: 'new'
+  },
+  data: function data() {
+    return {
+      lastname: '',
+      firstname: '',
+      middlename: '',
+      birthday: '',
+      email: '',
+      phone: '',
+
+      passportNumber: '',
+      passportDate: '',
+      passportSubCode: '',
+      passportIssuedBy: '',
+
+      regRegion: '',
+      regCity: '',
+      regStreet: '',
+      regHouse: '',
+      regBuilding: '',
+      regApartment: '',
+
+      actRegion: '',
+      actCity: '',
+      actStreet: '',
+      actHouse: '',
+      actBuilding: '',
+      actApartment: '',
+
+      addressSame: true,
+      accept: false,
+      approval: false,
+
+      state: 1,
+      accepting: [],
+      acceptable: false,
+      indeterminate: true,
+      selected: null,
+      options: [
+        // { value: 'string', text: 'string' },
+        // { value: '', text: '' },
+        // { value: {'C': '3PO'}, text: '{"C": "3PO"}' },
+        // { value: 'non empty value', text: '' }
+      ]
+    };
+  },
+
+  methods: {
+    onSubmit: function onSubmit() {
+      var _this = this;
+
+      return asyncToGenerator_default()( /*#__PURE__*/regenerator_default.a.mark(function _callee() {
+        var result;
+        return regenerator_default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return _this.$validator.validateAll();
+
+              case 2:
+                result = _context.sent;
+
+                if (result) {
+                  _this.$refs.thanksModal.show();
+                }
+
+              case 4:
+              case 'end':
+                return _context.stop();
+            }
+          }
+        }, _callee, _this);
+      }))();
+    },
+    onChange: function onChange(e) {},
+    passportDateRange: function passportDateRange() {
+      var now = new Date();
+      var dd = +now.getDate(),
+          mm = +now.getMonth() + 1,
+          yyyy = +now.getFullYear();
+      var _ref = [(dd < 10 ? '0' : '') + dd, (mm < 10 ? '0' : '') + mm];
+      dd = _ref[0];
+      mm = _ref[1];
+
+      return dd + '.' + mm + '.' + (yyyy - 60) + ',' + dd + '.' + mm + '.' + yyyy;
+    }
+  }
+});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1d796b04","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/ApplicationFormView.vue
+var ApplicationFormView_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"application-form"},[_c('div',{staticClass:"container-narrow"},[_c('heading',{attrs:{"title":"Заполните анкету для получения денег.","subtitle":"Наличными в Саратове."}})],1),_vm._v(" "),_c('form',{staticClass:"application-form__content",attrs:{"novalidate":"","autocomplete":"off"},on:{"submit":function($event){$event.preventDefault();_vm.onSubmit($event)}}},[_c('div',{staticClass:"application-form__header"},[_c('div',{staticClass:"application-form__container container-narrow"},[_c('calculator',{staticClass:"application-form__calculator",attrs:{"standalone":false}})],1)]),_vm._v(" "),_c('div',{staticClass:"application-form__body"},[_c('div',{staticClass:"application-form__container container-narrow"},[_c('div',{staticClass:"application-form__group"},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("ЛИЧНЫЕ ДАННЫЕ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Фамилия"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"lastname"},model:{value:(_vm.lastname),callback:function ($$v) {_vm.lastname=$$v},expression:"lastname"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Имя"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"firstname"},model:{value:(_vm.firstname),callback:function ($$v) {_vm.firstname=$$v},expression:"firstname"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Отчество"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"middlename"},model:{value:(_vm.middlename),callback:function ($$v) {_vm.middlename=$$v},expression:"middlename"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Дата рождения"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|date_format:DD.MM.YYYY|age'),expression:"'required|date_format:DD.MM.YYYY|age'"}],attrs:{"type":"tel","name":"birthday","mask":{ alias: 'dd.mm.yyyy', placeholder: 'дд.мм.гггг' }},model:{value:(_vm.birthday),callback:function ($$v) {_vm.birthday=$$v},expression:"birthday"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Электронная почта"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|email'),expression:"'required|email'"}],attrs:{"type":"email","name":"email"},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Номер телефона"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|phone'),expression:"'required|phone'"}],attrs:{"type":"tel","name":"phone","mask":"+7 (999) 999-99-99"},model:{value:(_vm.phone),callback:function ($$v) {_vm.phone=$$v},expression:"phone"}})],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"application-form__group"},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("ПАСПОРТНЫЕ ДАННЫЕ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col"},[_c('form-field',{attrs:{"label":"Серия и номер паспорта"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|passport_number'),expression:"'required|passport_number'"}],attrs:{"type":"tel","name":"passport-number","mask":"99 99 999999"},model:{value:(_vm.passportNumber),callback:function ($$v) {_vm.passportNumber=$$v},expression:"passportNumber"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Дата выдачи"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|date_format:DD.MM.YYYY|date_between:' + _vm.passportDateRange()),expression:"'required|date_format:DD.MM.YYYY|date_between:' + passportDateRange()"}],attrs:{"type":"tel","name":"passport-date","mask":{ alias: 'dd.mm.yyyy', placeholder: 'дд.мм.гггг' }},model:{value:(_vm.passportDate),callback:function ($$v) {_vm.passportDate=$$v},expression:"passportDate"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Код подразделения"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|passport_sub_сode'),expression:"'required|passport_sub_сode'"}],attrs:{"type":"tel","name":"passport-sub-сode","mask":"999-999","readonly":false},model:{value:(_vm.passportSubCode),callback:function ($$v) {_vm.passportSubCode=$$v},expression:"passportSubCode"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col"},[_c('form-field',{attrs:{"label":"Кем выдан"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"passport-issued-by"},model:{value:(_vm.passportIssuedBy),callback:function ($$v) {_vm.passportIssuedBy=$$v},expression:"passportIssuedBy"}})],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"application-form__group"},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("АДРЕС ПРОПИСКИ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Область прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"reg-region"},model:{value:(_vm.regRegion),callback:function ($$v) {_vm.regRegion=$$v},expression:"regRegion"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Город прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"reg-city"},model:{value:(_vm.regCity),callback:function ($$v) {_vm.regCity=$$v},expression:"regCity"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Улица"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|min:2'),expression:"'required|russian|min:2'"}],attrs:{"name":"reg-street"},model:{value:(_vm.regStreet),callback:function ($$v) {_vm.regStreet=$$v},expression:"regStreet"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('div',{staticClass:"application-form__input-group"},[_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Дом"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|min:1'),expression:"'required|min:1'"}],attrs:{"type":"tel","name":"reg-house"},model:{value:(_vm.regHouse),callback:function ($$v) {_vm.regHouse=$$v},expression:"regHouse"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Строение"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('min:1'),expression:"'min:1'"}],attrs:{"type":"tel","name":"reg-building"},model:{value:(_vm.regBuilding),callback:function ($$v) {_vm.regBuilding=$$v},expression:"regBuilding"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Квартира"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('min:1'),expression:"'min:1'"}],attrs:{"type":"tel","name":"reg-apartment"},model:{value:(_vm.regApartment),callback:function ($$v) {_vm.regApartment=$$v},expression:"regApartment"}})],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"application-form__bool"},[_c('form-checkbox',{attrs:{"name":"address-same","label":"Совпадает с адресом фактического проживания"},model:{value:(_vm.addressSame),callback:function ($$v) {_vm.addressSame=$$v},expression:"addressSame"}})],1)])]),_vm._v(" "),_c('collapse',{staticClass:"application-form__group",attrs:{"visible":!_vm.addressSame}},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("ФАКТИЧЕСКИЙ АДРЕС ПРОЖИВАНИЯ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Область прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|russian|capitalized|min:2', disabled: _vm.addressSame }),expression:"{ rules: 'required|russian|capitalized|min:2', disabled: addressSame }"}],attrs:{"name":"act-region","disabled":_vm.addressSame},model:{value:(_vm.actRegion),callback:function ($$v) {_vm.actRegion=$$v},expression:"actRegion"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Город прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|russian|capitalized|min:2', disabled: _vm.addressSame }),expression:"{ rules: 'required|russian|capitalized|min:2', disabled: addressSame }"}],attrs:{"name":"act-city","disabled":_vm.addressSame},model:{value:(_vm.actCity),callback:function ($$v) {_vm.actCity=$$v},expression:"actCity"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Улица"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|russian|min:2', disabled: _vm.addressSame }),expression:"{ rules: 'required|russian|min:2', disabled: addressSame }"}],attrs:{"name":"act-street","disabled":_vm.addressSame},model:{value:(_vm.actStreet),callback:function ($$v) {_vm.actStreet=$$v},expression:"actStreet"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('div',{staticClass:"application-form__input-group"},[_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Дом"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|min:1', disabled: _vm.addressSame }),expression:"{ rules: 'required|min:1', disabled: addressSame }"}],attrs:{"type":"tel","name":"act-house","disabled":_vm.addressSame},model:{value:(_vm.actHouse),callback:function ($$v) {_vm.actHouse=$$v},expression:"actHouse"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Строение"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'min:1', disabled: _vm.addressSame }),expression:"{ rules: 'min:1', disabled: addressSame }"}],attrs:{"type":"tel","name":"act-building","disabled":_vm.addressSame},model:{value:(_vm.actBuilding),callback:function ($$v) {_vm.actBuilding=$$v},expression:"actBuilding"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Квартира"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'min:1', disabled: _vm.addressSame }),expression:"{ rules: 'min:1', disabled: addressSame }"}],attrs:{"type":"tel","name":"act-apartment","disabled":_vm.addressSame},model:{value:(_vm.actApartment),callback:function ($$v) {_vm.actApartment=$$v},expression:"actApartment"}})],1)],1)])])])])]),_vm._v(" "),_c('div',{staticClass:"application-form__footer"},[_c('div',{staticClass:"application-form__checks"},[_c('div',{staticClass:"application-form__check"},[_c('form-field',[_c('form-checkbox',{directives:[{name:"validate",rawName:"v-validate",value:('required'),expression:"'required'"}],attrs:{"name":"accept","label":"Я соглашаюсь на обработку <a href='#'>персональных данных</a>"},model:{value:(_vm.accept),callback:function ($$v) {_vm.accept=$$v},expression:"accept"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__check"},[_c('form-field',[_c('form-checkbox',{directives:[{name:"validate",rawName:"v-validate",value:('required'),expression:"'required'"}],attrs:{"name":"approval","label":"Я принимаю <a href='#'>Соглашение об использовании Аналога собственноручной подписи</a>"},model:{value:(_vm.approval),callback:function ($$v) {_vm.approval=$$v},expression:"approval"}})],1)],1)]),_vm._v(" "),_c('div',{staticClass:"application-form__button-area"},[_c('btn',{staticClass:"form__button",attrs:{"variant":"primary","type":"submit","disabled":_vm.errors.any()}},[_vm._v("ПОЛУЧИТЬ ЗАЙМ")]),_vm._v(" "),_c('div',{staticClass:"application-form__note"},[_vm._v("Рассмотрим заявку за 10 минут\n            ")]),_vm._v(" "),_c('modal',{ref:"thanksModal",attrs:{"id":"Thanks-modal","size":"large"}},[_c('thanks')],1)],1)])],1)])])])}
+var ApplicationFormView_staticRenderFns = []
+var ApplicationFormView_esExports = { render: ApplicationFormView_render, staticRenderFns: ApplicationFormView_staticRenderFns }
+/* harmony default export */ var pages_ApplicationFormView = (ApplicationFormView_esExports);
+// CONCATENATED MODULE: ./src/components/pages/ApplicationFormView.vue
+function injectStyle (ssrContext) {
+  __webpack_require__("NrF1")
+}
+var ApplicationFormView_normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var ApplicationFormView___vue_template_functional__ = false
+/* styles */
+var ApplicationFormView___vue_styles__ = injectStyle
+/* scopeId */
+var ApplicationFormView___vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var ApplicationFormView___vue_module_identifier__ = null
+var ApplicationFormView_Component = ApplicationFormView_normalizeComponent(
+  ApplicationFormView,
+  pages_ApplicationFormView,
+  ApplicationFormView___vue_template_functional__,
+  ApplicationFormView___vue_styles__,
+  ApplicationFormView___vue_scopeId__,
+  ApplicationFormView___vue_module_identifier__
+)
+
+/* harmony default export */ var components_pages_ApplicationFormView = (ApplicationFormView_Component.exports);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-28984e96","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/ShoppingView.vue
+var ShoppingView_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container"},[_c('shopping')],1)}
+var ShoppingView_staticRenderFns = []
+var ShoppingView_esExports = { render: ShoppingView_render, staticRenderFns: ShoppingView_staticRenderFns }
+/* harmony default export */ var ShoppingView = (ShoppingView_esExports);
+// CONCATENATED MODULE: ./src/components/pages/ShoppingView.vue
+var ShoppingView_normalizeComponent = __webpack_require__("VU/8")
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var ShoppingView___vue_template_functional__ = false
+/* styles */
+var ShoppingView___vue_styles__ = null
+/* scopeId */
+var ShoppingView___vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var ShoppingView___vue_module_identifier__ = null
+var ShoppingView_Component = ShoppingView_normalizeComponent(
+  __vue_script__,
+  ShoppingView,
+  ShoppingView___vue_template_functional__,
+  ShoppingView___vue_styles__,
+  ShoppingView___vue_scopeId__,
+  ShoppingView___vue_module_identifier__
+)
+
+/* harmony default export */ var pages_ShoppingView = (ShoppingView_Component.exports);
+
+// CONCATENATED MODULE: ./src/router/index.js
+
+
+
+
+
+
+
+
+vue_runtime_esm["default"].use(vue_router_esm["a" /* default */]);
+
+/* harmony default export */ var router = (new vue_router_esm["a" /* default */]({
+  routes: [{
+    path: '/',
+    name: 'home',
+    component: components_pages_HomeView
+  }, {
+    path: '/info',
+    name: 'info',
+    component: components_pages_InfoView
+  }, {
+    path: '/application-form',
+    name: 'application-form',
+    component: components_pages_ApplicationFormView
+  }, {
+    path: '/shopping',
+    name: 'shopping',
+    component: pages_ShoppingView
+  }, {
+    path: '*',
+    redirect: '/'
+  }],
+  base: '/legkozaim/',
+  mode: 'history',
+  // scrollBehavior: () => ({ y: 0 }),
+  scrollBehavior: function scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { x: 0, y: 0 };
+    }
+  }
+}));
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/App.vue
 //
 //
@@ -698,37 +1161,37 @@ var router = __webpack_require__("YaEn");
 });
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-c77737da","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
 var App_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app"},[_c('the-header'),_vm._v(" "),_c('div',{staticClass:"main"},[_c('router-view')],1),_vm._v(" "),(_vm.$route.path === '/')?_c('steps'):_vm._e(),_vm._v(" "),_c('the-footer')],1)}
-var staticRenderFns = []
-var esExports = { render: App_render, staticRenderFns: staticRenderFns }
-/* harmony default export */ var selectortype_template_index_0_src_App = (esExports);
+var App_staticRenderFns = []
+var App_esExports = { render: App_render, staticRenderFns: App_staticRenderFns }
+/* harmony default export */ var selectortype_template_index_0_src_App = (App_esExports);
 // CONCATENATED MODULE: ./src/App.vue
-function injectStyle (ssrContext) {
+function App_injectStyle (ssrContext) {
   __webpack_require__("SB0g")
 }
-var normalizeComponent = __webpack_require__("VU/8")
+var App_normalizeComponent = __webpack_require__("VU/8")
 /* script */
 
 
 /* template */
 
 /* template functional */
-var __vue_template_functional__ = false
+var App___vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = injectStyle
+var App___vue_styles__ = App_injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var App___vue_scopeId__ = null
 /* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
+var App___vue_module_identifier__ = null
+var App_Component = App_normalizeComponent(
   App,
   selectortype_template_index_0_src_App,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
+  App___vue_template_functional__,
+  App___vue_styles__,
+  App___vue_scopeId__,
+  App___vue_module_identifier__
 )
 
-/* harmony default export */ var src_App = (Component.exports);
+/* harmony default export */ var src_App = (App_Component.exports);
 
 // EXTERNAL MODULE: ./node_modules/portal-vue/dist/portal-vue.js
 var portal_vue = __webpack_require__("9mpg");
@@ -2699,14 +3162,6 @@ var Btn_Component = Btn_normalizeComponent(
 
 /* harmony default export */ var components_Btn = (Btn_Component.exports);
 
-// EXTERNAL MODULE: ./node_modules/babel-runtime/regenerator/index.js
-var regenerator = __webpack_require__("Xxa5");
-var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator);
-
-// EXTERNAL MODULE: ./node_modules/babel-runtime/helpers/asyncToGenerator.js
-var asyncToGenerator = __webpack_require__("exGp");
-var asyncToGenerator_default = /*#__PURE__*/__webpack_require__.n(asyncToGenerator);
-
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Account.vue
 
 
@@ -3355,7 +3810,7 @@ function Faq_injectStyle (ssrContext) {
 }
 var Faq_normalizeComponent = __webpack_require__("VU/8")
 /* script */
-var __vue_script__ = null
+var Faq___vue_script__ = null
 /* template */
 
 /* template functional */
@@ -3367,7 +3822,7 @@ var Faq___vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var Faq___vue_module_identifier__ = null
 var Faq_Component = Faq_normalizeComponent(
-  __vue_script__,
+  Faq___vue_script__,
   Faq,
   Faq___vue_template_functional__,
   Faq___vue_styles__,
@@ -4803,7 +5258,7 @@ keys_default()(directives_namespaceObject).forEach(function (key) {
 new vue_runtime_esm["default"]({
   el: '#app',
   store: store,
-  router: router["a" /* default */],
+  router: router,
   render: function render(h) {
     return h(src_App);
   }
@@ -4867,354 +5322,6 @@ module.exports = __webpack_require__.p + "static/img/loan-instruction.png?4faa68
 
 /***/ }),
 
-/***/ "Vejv":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXTERNAL MODULE: ./node_modules/babel-runtime/regenerator/index.js
-var regenerator = __webpack_require__("Xxa5");
-var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator);
-
-// EXTERNAL MODULE: ./node_modules/babel-runtime/helpers/asyncToGenerator.js
-var asyncToGenerator = __webpack_require__("exGp");
-var asyncToGenerator_default = /*#__PURE__*/__webpack_require__.n(asyncToGenerator);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/pages/ApplicationFormView.vue
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var ApplicationFormView = ({
-  $_veeValidate: {
-    validator: 'new'
-  },
-  data: function data() {
-    return {
-      lastname: '',
-      firstname: '',
-      middlename: '',
-      birthday: '',
-      email: '',
-      phone: '',
-
-      passportNumber: '',
-      passportDate: '',
-      passportSubCode: '',
-      passportIssuedBy: '',
-
-      regRegion: '',
-      regCity: '',
-      regStreet: '',
-      regHouse: '',
-      regBuilding: '',
-      regApartment: '',
-
-      actRegion: '',
-      actCity: '',
-      actStreet: '',
-      actHouse: '',
-      actBuilding: '',
-      actApartment: '',
-
-      addressSame: true,
-      accept: false,
-      approval: false,
-
-      state: 1,
-      accepting: [],
-      acceptable: false,
-      indeterminate: true,
-      selected: null,
-      options: [
-        // { value: 'string', text: 'string' },
-        // { value: '', text: '' },
-        // { value: {'C': '3PO'}, text: '{"C": "3PO"}' },
-        // { value: 'non empty value', text: '' }
-      ]
-    };
-  },
-
-  methods: {
-    onSubmit: function onSubmit() {
-      var _this = this;
-
-      return asyncToGenerator_default()( /*#__PURE__*/regenerator_default.a.mark(function _callee() {
-        var result;
-        return regenerator_default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                _context.next = 2;
-                return _this.$validator.validateAll();
-
-              case 2:
-                result = _context.sent;
-
-                if (result) {
-                  _this.$refs.thanksModal.show();
-                }
-
-              case 4:
-              case 'end':
-                return _context.stop();
-            }
-          }
-        }, _callee, _this);
-      }))();
-    },
-    onChange: function onChange(e) {},
-    passportDateRange: function passportDateRange() {
-      var now = new Date();
-      var dd = +now.getDate(),
-          mm = +now.getMonth() + 1,
-          yyyy = +now.getFullYear();
-      var _ref = [(dd < 10 ? '0' : '') + dd, (mm < 10 ? '0' : '') + mm];
-      dd = _ref[0];
-      mm = _ref[1];
-
-      return dd + '.' + mm + '.' + (yyyy - 60) + ',' + dd + '.' + mm + '.' + yyyy;
-    }
-  }
-});
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1d796b04","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/ApplicationFormView.vue
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"application-form"},[_c('div',{staticClass:"container-narrow"},[_c('heading',{attrs:{"title":"Заполните анкету для получения денег.","subtitle":"Наличными в Саратове."}})],1),_vm._v(" "),_c('form',{staticClass:"application-form__content",attrs:{"novalidate":"","autocomplete":"off"},on:{"submit":function($event){$event.preventDefault();_vm.onSubmit($event)}}},[_c('div',{staticClass:"application-form__header"},[_c('div',{staticClass:"application-form__container container-narrow"},[_c('calculator',{staticClass:"application-form__calculator",attrs:{"standalone":false}})],1)]),_vm._v(" "),_c('div',{staticClass:"application-form__body"},[_c('div',{staticClass:"application-form__container container-narrow"},[_c('div',{staticClass:"application-form__group"},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("ЛИЧНЫЕ ДАННЫЕ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Фамилия"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"lastname"},model:{value:(_vm.lastname),callback:function ($$v) {_vm.lastname=$$v},expression:"lastname"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Имя"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"firstname"},model:{value:(_vm.firstname),callback:function ($$v) {_vm.firstname=$$v},expression:"firstname"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Отчество"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"middlename"},model:{value:(_vm.middlename),callback:function ($$v) {_vm.middlename=$$v},expression:"middlename"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Дата рождения"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|date_format:DD.MM.YYYY|age'),expression:"'required|date_format:DD.MM.YYYY|age'"}],attrs:{"type":"tel","name":"birthday","mask":{ alias: 'dd.mm.yyyy', placeholder: 'дд.мм.гггг' }},model:{value:(_vm.birthday),callback:function ($$v) {_vm.birthday=$$v},expression:"birthday"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Электронная почта"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|email'),expression:"'required|email'"}],attrs:{"type":"email","name":"email"},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Номер телефона"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|phone'),expression:"'required|phone'"}],attrs:{"type":"tel","name":"phone","mask":"+7 (999) 999-99-99"},model:{value:(_vm.phone),callback:function ($$v) {_vm.phone=$$v},expression:"phone"}})],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"application-form__group"},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("ПАСПОРТНЫЕ ДАННЫЕ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col"},[_c('form-field',{attrs:{"label":"Серия и номер паспорта"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|passport_number'),expression:"'required|passport_number'"}],attrs:{"type":"tel","name":"passport-number","mask":"99 99 999999"},model:{value:(_vm.passportNumber),callback:function ($$v) {_vm.passportNumber=$$v},expression:"passportNumber"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Дата выдачи"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|date_format:DD.MM.YYYY|date_between:' + _vm.passportDateRange()),expression:"'required|date_format:DD.MM.YYYY|date_between:' + passportDateRange()"}],attrs:{"type":"tel","name":"passport-date","mask":{ alias: 'dd.mm.yyyy', placeholder: 'дд.мм.гггг' }},model:{value:(_vm.passportDate),callback:function ($$v) {_vm.passportDate=$$v},expression:"passportDate"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Код подразделения"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|passport_sub_сode'),expression:"'required|passport_sub_сode'"}],attrs:{"type":"tel","name":"passport-sub-сode","mask":"999-999","readonly":false},model:{value:(_vm.passportSubCode),callback:function ($$v) {_vm.passportSubCode=$$v},expression:"passportSubCode"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col"},[_c('form-field',{attrs:{"label":"Кем выдан"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"passport-issued-by"},model:{value:(_vm.passportIssuedBy),callback:function ($$v) {_vm.passportIssuedBy=$$v},expression:"passportIssuedBy"}})],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"application-form__group"},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("АДРЕС ПРОПИСКИ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Область прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"reg-region"},model:{value:(_vm.regRegion),callback:function ($$v) {_vm.regRegion=$$v},expression:"regRegion"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Город прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|capitalized|min:2'),expression:"'required|russian|capitalized|min:2'"}],attrs:{"name":"reg-city"},model:{value:(_vm.regCity),callback:function ($$v) {_vm.regCity=$$v},expression:"regCity"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Улица"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|russian|min:2'),expression:"'required|russian|min:2'"}],attrs:{"name":"reg-street"},model:{value:(_vm.regStreet),callback:function ($$v) {_vm.regStreet=$$v},expression:"regStreet"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('div',{staticClass:"application-form__input-group"},[_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Дом"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('required|min:1'),expression:"'required|min:1'"}],attrs:{"type":"tel","name":"reg-house"},model:{value:(_vm.regHouse),callback:function ($$v) {_vm.regHouse=$$v},expression:"regHouse"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Строение"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('min:1'),expression:"'min:1'"}],attrs:{"type":"tel","name":"reg-building"},model:{value:(_vm.regBuilding),callback:function ($$v) {_vm.regBuilding=$$v},expression:"regBuilding"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Квартира"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:('min:1'),expression:"'min:1'"}],attrs:{"type":"tel","name":"reg-apartment"},model:{value:(_vm.regApartment),callback:function ($$v) {_vm.regApartment=$$v},expression:"regApartment"}})],1)],1)])])]),_vm._v(" "),_c('div',{staticClass:"application-form__bool"},[_c('form-checkbox',{attrs:{"name":"address-same","label":"Совпадает с адресом фактического проживания"},model:{value:(_vm.addressSame),callback:function ($$v) {_vm.addressSame=$$v},expression:"addressSame"}})],1)])]),_vm._v(" "),_c('collapse',{staticClass:"application-form__group",attrs:{"visible":!_vm.addressSame}},[_c('div',{staticClass:"application-form__group-inner"},[_c('div',{staticClass:"application-form__legend"},[_vm._v("ФАКТИЧЕСКИЙ АДРЕС ПРОЖИВАНИЯ\n            ")]),_vm._v(" "),_c('div',{staticClass:"application-form__row"},[_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Область прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|russian|capitalized|min:2', disabled: _vm.addressSame }),expression:"{ rules: 'required|russian|capitalized|min:2', disabled: addressSame }"}],attrs:{"name":"act-region","disabled":_vm.addressSame},model:{value:(_vm.actRegion),callback:function ($$v) {_vm.actRegion=$$v},expression:"actRegion"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Город прописки"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|russian|capitalized|min:2', disabled: _vm.addressSame }),expression:"{ rules: 'required|russian|capitalized|min:2', disabled: addressSame }"}],attrs:{"name":"act-city","disabled":_vm.addressSame},model:{value:(_vm.actCity),callback:function ($$v) {_vm.actCity=$$v},expression:"actCity"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('form-field',{attrs:{"label":"Улица"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|russian|min:2', disabled: _vm.addressSame }),expression:"{ rules: 'required|russian|min:2', disabled: addressSame }"}],attrs:{"name":"act-street","disabled":_vm.addressSame},model:{value:(_vm.actStreet),callback:function ($$v) {_vm.actStreet=$$v},expression:"actStreet"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__col application-form__col_1-2"},[_c('div',{staticClass:"application-form__input-group"},[_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Дом"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'required|min:1', disabled: _vm.addressSame }),expression:"{ rules: 'required|min:1', disabled: addressSame }"}],attrs:{"type":"tel","name":"act-house","disabled":_vm.addressSame},model:{value:(_vm.actHouse),callback:function ($$v) {_vm.actHouse=$$v},expression:"actHouse"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Строение"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'min:1', disabled: _vm.addressSame }),expression:"{ rules: 'min:1', disabled: addressSame }"}],attrs:{"type":"tel","name":"act-building","disabled":_vm.addressSame},model:{value:(_vm.actBuilding),callback:function ($$v) {_vm.actBuilding=$$v},expression:"actBuilding"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__cell application-form__cell_1-3"},[_c('form-field',{attrs:{"label":"Квартира"}},[_c('form-input',{directives:[{name:"validate",rawName:"v-validate",value:({ rules: 'min:1', disabled: _vm.addressSame }),expression:"{ rules: 'min:1', disabled: addressSame }"}],attrs:{"type":"tel","name":"act-apartment","disabled":_vm.addressSame},model:{value:(_vm.actApartment),callback:function ($$v) {_vm.actApartment=$$v},expression:"actApartment"}})],1)],1)])])])])]),_vm._v(" "),_c('div',{staticClass:"application-form__footer"},[_c('div',{staticClass:"application-form__checks"},[_c('div',{staticClass:"application-form__check"},[_c('form-field',[_c('form-checkbox',{directives:[{name:"validate",rawName:"v-validate",value:('required'),expression:"'required'"}],attrs:{"name":"accept","label":"Я соглашаюсь на обработку <a href='#'>персональных данных</a>"},model:{value:(_vm.accept),callback:function ($$v) {_vm.accept=$$v},expression:"accept"}})],1)],1),_vm._v(" "),_c('div',{staticClass:"application-form__check"},[_c('form-field',[_c('form-checkbox',{directives:[{name:"validate",rawName:"v-validate",value:('required'),expression:"'required'"}],attrs:{"name":"approval","label":"Я принимаю <a href='#'>Соглашение об использовании Аналога собственноручной подписи</a>"},model:{value:(_vm.approval),callback:function ($$v) {_vm.approval=$$v},expression:"approval"}})],1)],1)]),_vm._v(" "),_c('div',{staticClass:"application-form__button-area"},[_c('btn',{staticClass:"form__button",attrs:{"variant":"primary","type":"submit","disabled":_vm.errors.any()}},[_vm._v("ПОЛУЧИТЬ ЗАЙМ")]),_vm._v(" "),_c('div',{staticClass:"application-form__note"},[_vm._v("Рассмотрим заявку за 10 минут\n            ")]),_vm._v(" "),_c('modal',{ref:"thanksModal",attrs:{"id":"Thanks-modal","size":"large"}},[_c('thanks')],1)],1)])],1)])])])}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ var pages_ApplicationFormView = (esExports);
-// CONCATENATED MODULE: ./src/components/pages/ApplicationFormView.vue
-function injectStyle (ssrContext) {
-  __webpack_require__("NrF1")
-}
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  ApplicationFormView,
-  pages_ApplicationFormView,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ var components_pages_ApplicationFormView = __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
-
 /***/ "Veuv":
 /***/ (function(module, exports) {
 
@@ -5226,62 +5333,6 @@ var Component = normalizeComponent(
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "YaEn":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(__dirname) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("/5sW");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__("/ocq");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_pages_HomeView_vue__ = __webpack_require__("93mw");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_pages_InfoView_vue__ = __webpack_require__("zT2w");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_pages_ApplicationFormView_vue__ = __webpack_require__("Vejv");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_pages_ShoppingView_vue__ = __webpack_require__("Dmf0");
-
-
-
-
-
-
-
-
-__WEBPACK_IMPORTED_MODULE_0_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]);
-
-/* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
-  routes: [{
-    path: '/',
-    name: 'home',
-    component: __WEBPACK_IMPORTED_MODULE_2__components_pages_HomeView_vue__["a" /* default */]
-  }, {
-    path: '/info',
-    name: 'info',
-    component: __WEBPACK_IMPORTED_MODULE_3__components_pages_InfoView_vue__["a" /* default */]
-  }, {
-    path: '/application-form',
-    name: 'application-form',
-    component: __WEBPACK_IMPORTED_MODULE_4__components_pages_ApplicationFormView_vue__["a" /* default */]
-  }, {
-    path: '/shopping',
-    name: 'shopping',
-    component: __WEBPACK_IMPORTED_MODULE_5__components_pages_ShoppingView_vue__["a" /* default */]
-  }, {
-    path: '*',
-    redirect: '/'
-  }],
-  base: __dirname,
-  mode: 'history',
-  // scrollBehavior: () => ({ y: 0 }),
-  scrollBehavior: function scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition;
-    } else {
-      return { x: 0, y: 0 };
-    }
-  }
-}));
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, "/"))
 
 /***/ }),
 
@@ -5555,111 +5606,7 @@ var result = __WEBPACK_IMPORTED_MODULE_1_svg_sprite_loader_runtime_browser_sprit
 
 // removed by extract-text-webpack-plugin
 
-/***/ }),
-
-/***/ "zT2w":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/pages/InfoView.vue
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var InfoView = ({
-  methods: {
-    log: function log(_ref) {
-      var _ref$target = _ref.target,
-          tagName = _ref$target.tagName,
-          className = _ref$target.className;
-
-      console.log(tagName, className);
-    }
-  }
-});
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7199a374","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/InfoView.vue
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"container"},[_c('intro',[_c('template',{slot:"text"},[_c('p',[_vm._v("Наша компания работает для активных и ответственных людей, ценящих свое время, желающих зарабатывать и умеющих тратить,\n          идущих к своей цели, но стремящихся жить здесь и сейчас.")]),_vm._v(" "),_c('p',[_vm._v("Мы оперативно решаем вопрос предоставления займа, не требуем залогов и лишних документов, предлагаем прозрачные индивидуальные\n          условия сотрудничества. Наши средства максимально доступны для предпринимателей с четким планом действий, а также\n          для тех, кто умеет «держать слово».")])])],2),_vm._v(" "),_c('steps')],1),_vm._v(" "),_c('sector',[_c('subtitle',[_vm._v("Как получить займ?")]),_vm._v(" "),_c('help-block',{attrs:{"desc":"Наша компания выдает займы наличными в г. Саратов","legend":"Инструкция по получению займа","img":"loan-instruction.png"}},[_c('li',[_vm._v("Убедитесь, что Вам больше 18 лет и Вы находитесь в г. Саратов")]),_vm._v(" "),_c('li',[_vm._v("Заполните "),_c('router-link',{attrs:{"to":"/application-form"}},[_vm._v("анкету")]),_vm._v(" на нашем сайте")],1),_vm._v(" "),_c('li',[_vm._v("Дождитесь СМС с одобрением займа")]),_vm._v(" "),_c('li',[_vm._v("Возьмите с собой паспорт и получите деньги наличными у нас в офисе: г. Саратов, ул. Политехническая, о. 103")])]),_vm._v(" "),_c('subtitle',[_vm._v("Как погасить займ?")]),_vm._v(" "),_c('help-block',{attrs:{"desc":"Узнать свою задолженность Вы можете в <a href='/application-form'>личном кабинете</a> нашего сайта. Для этого нужно ввести Ваш телефон и код, который мы пришлем Вам по СМС.","legend":"Погасить займ можно несколькими способами:","img":"account-instruction.png"}},[_c('li',[_vm._v("С помощью банковской карты")]),_vm._v(" "),_c('li',[_vm._v("Наличными в офисе")])])],1),_vm._v(" "),_c('sector',[_c('subtitle',[_vm._v("Ответы на часто задаваемые вопросы")]),_vm._v(" "),_c('faq')],1),_vm._v(" "),_c('sector',{attrs:{"mods":"dark"}},[_c('subtitle',[_vm._v("Документы МФО")]),_vm._v(" "),_c('docs')],1),_vm._v(" "),_c('sector',{attrs:{"mods":"dark"}},[_c('subtitle',[_vm._v("Реквизиты МФО")]),_vm._v(" "),_c('requisites')],1)],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ var pages_InfoView = (esExports);
-// CONCATENATED MODULE: ./src/components/pages/InfoView.vue
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  InfoView,
-  pages_InfoView,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ var components_pages_InfoView = __webpack_exports__["a"] = (Component.exports);
-
-
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.js.map?559133a2325875d1ec5f
+//# sourceMappingURL=app.js.map?19ba1fd1dfe0a67fb5d8
