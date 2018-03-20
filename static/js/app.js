@@ -1132,7 +1132,7 @@ vue_runtime_esm["default"].use(vue_router_esm["a" /* default */]);
     path: '*',
     redirect: '/'
   }],
-  base: '/legkozaim/',
+  base:  true ? '/legkozaim/' : '',
   mode: 'history',
   // scrollBehavior: () => ({ y: 0 }),
   scrollBehavior: function scrollBehavior(to, from, savedPosition) {
@@ -5609,4 +5609,4 @@ var result = __WEBPACK_IMPORTED_MODULE_1_svg_sprite_loader_runtime_browser_sprit
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.js.map?19ba1fd1dfe0a67fb5d8
+//# sourceMappingURL=app.js.map?911db1ce172f7da9b0d7

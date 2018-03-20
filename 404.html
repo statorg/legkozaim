@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>404</title>
+    <script>
+      var segmentCount = 0;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+
+    </script>
+    <link href="/legkozaim/static/css/app.css?0dcc2f9398a8b80ae6f9b88af526177a" rel="stylesheet">
+  </head>
+
+  <body>
+    <script src="/legkozaim/static/js/manifest.js?728458ea5ccab6e5c9ba"></script>
+    <script src="/legkozaim/static/js/vendor.js?e526b993cef20377e397"></script>
+    <script src="/legkozaim/static/js/app.js?911db1ce172f7da9b0d7"></script>
+  </body>
+
+</html>
